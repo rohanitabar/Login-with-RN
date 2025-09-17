@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "login",
-    "slug": "login",
+    "name": "Musicfy",
+    "slug": "Musicfy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Musicfy logo.png",

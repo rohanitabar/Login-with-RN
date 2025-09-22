@@ -82,7 +82,6 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     direction: "rtl",
-    backgroundColor: "#000",
   },
   // Section 1
   sec1: {

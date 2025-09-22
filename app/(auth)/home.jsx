@@ -9,13 +9,24 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
 import { useState } from "react";
+import Navigation from "./navigation";
+import Header from "./header";
 
 const Home = ()=>{
     return(
-        <SafeAreaView>
-            <Text>This is home page</Text>
-        </SafeAreaView>
+        <View style={styles.container}>
+            <Header/>
+            <Navigation/>
+        </View>
     )
 }
 
 export default Home;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    width: "100%",
+    direction: "rtl",
+  },
+});

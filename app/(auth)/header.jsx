@@ -1,7 +1,7 @@
-import { Text, View, StyleSheet, TouchableOpacity, Image } from "react-native";
+import { Text, View, StyleSheet, TouchableOpacity, Image,TextInput } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
-
+import Ionicons from "@expo/vector-icons/Ionicons";
 const Header = () => {
   const logo = require("../../assets/Musicfy-logo.png"); // Logo img
 
@@ -35,6 +35,16 @@ const Header = () => {
             </TouchableOpacity>
           </View>
         </View>
+      </View>
+      <View style={styles.searchContainer}>
+        <TextInput
+          style={styles.input}
+          placeholder="جستجو..."
+          placeholderTextColor="#999"
+        />
+        <TouchableOpacity>
+          <Ionicons name="search" size={20} color="#888" style={styles.iconSearch} />
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
@@ -82,13 +92,41 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 16,
     fontFamily: "Poppins",
-    marginRight:10,
+    marginRight: 10,
   },
   iconCon: {
     flexDirection: "row",
     alignItems: "center",
   },
   icon: {
-    marginLeft: 18,
+    marginLeft: 20,
+  },
+  searchContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#f2f2f2",
+    borderRadius: 25,
+    paddingHorizontal: 15,
+    marginHorizontal:10,
+    marginTop:10,
+    height: 45,
+
+    // shadow iOS
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+
+    // shadow Android
+    elevation: 4,
+  },
+  iconSearch: {
+    marginRight: 10,
+  },
+  input: {
+    flex: 1,
+    fontSize: 15,
+    fontFamily: "Yekan",
+    color: "#000",
   },
 });

@@ -11,11 +11,13 @@ import { router } from "expo-router";
 import { useState } from "react";
 import Navigation from "./navigation";
 import Header from "./header";
+import Main from "./main";
 
 const Home = ()=>{
     return(
         <View style={styles.container}>
             <Header/>
+            <Main/>
             <Navigation/>
         </View>
     )
@@ -28,5 +30,6 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     direction: "rtl",
+    backgroundColor:'#fff'
   },
 });

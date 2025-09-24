@@ -1,0 +1,226 @@
+[
+  {
+    "id": "cat_01",
+    "genre": "بهترین های پاپ",
+    "artists": [
+      {
+        "id": "pop_01",
+        "name": "محسن یگانه",
+        "image": "https://qeshmtafrihat.com/wp-content/uploads/2022/07/IMG_20190226_172410_454.jpg"
+      },
+      {
+        "id": "pop_02",
+        "name": "احسان خواجه امیری",
+        "image": "https://i1.delgarm.com/i/844/020121/a-beautiful-frame-of.webp"
+      },
+      {
+        "id": "pop_03",
+        "name": "شادمهر عقیلی",
+        "image": "https://ts17.tarafdari.com/contents/user844543/content-sound/nihgpe1oy8dcyga664n39gu3vvr5n1.jpg"
+      },
+      {
+        "id": "pop_04",
+        "name": "محسن چاوشی",
+        "image": "https://taktarmusic.ir/wp-content/uploads/2022/03/Mohsen-Chavoshi-.jpg"
+      },
+      {
+        "id": "pop_05",
+        "name": "فرزاد فرزین",
+        "image": "https://mifa-music.ir/wp-content/uploads/2023/02/4220.webp"
+      },
+      {
+        "id": "pop_06",
+        "name": "بنیامین بهادری",
+        "image": "https://static-s.sheyda.com/615a521964914e8c86843dcf81685448.jpeg"
+      },
+      {
+        "id": "pop_07",
+        "name": "سیروان خسروی",
+        "image": "https://files.virgool.io/upload/users/2262530/posts/hnwxdemf6w0y/hfkkly66reyu.jpg"
+      },
+      {
+        "id": "pop_08",
+        "name": "زانیار خسروی",
+        "image": "https://funyfaz.com/wp-content/uploads/2022/07/Xaniar-Khosravi-Ghabe-Akse-Khali-Music-fa.com_.jpg"
+      },
+      {
+        "id": "pop_09",
+        "name": "حامد همایون",
+        "image": "https://tajmusics.com/wp-content/uploads/2025/05/Hamed-Homayoun-Ghole-Mardoone.webp"
+      },
+      {
+        "id": "pop_10",
+        "name": "علیرضا طلیسچی",
+        "image": "https://www.bedinsan.ir/wp-content/uploads/2024/10/71514294-parsnaz-com.jpg"
+      }
+    ]
+  },
+  {
+    "id": "cat_02",
+    "genre": "بهترین های رپ",
+    "artists": [
+      {
+        "id": "rap_01",
+        "name": "هیچکس",
+        "image": "https://www.appahangx.com/cdn/artists-avatar/1403/06/2654172480111329671724801113795917248011134195.webp"
+      },
+      {
+        "id": "rap_02",
+        "name": "یاس",
+        "image": "https://ts11.tarafdari.com/contents/user778965/content-article/yas-age-beporsam-on-kiye.jpg"
+      },
+      {
+        "id": "rap_03",
+        "name": "تتلو",
+        "image": "https://tajmusics.com/wp-content/uploads/2024/07/Amir-Tataloo-Bache-Tokhs.webp"
+      },
+      {
+        "id": "rap_04",
+        "name": "سورنا",
+        "image": "https://www.jenabmusic.com/wp-content/uploads/2025/03/Ali-Sorena-Remix.jpg"
+      },
+      {
+        "id": "rap_05",
+        "name": "پیشرو",
+        "image": "https://musiketoo.com/wp-content/uploads/2022/10/pishro.jpg"
+      },
+      {
+        "id": "rap_06",
+        "name": "عرفان پایدار",
+        "image": "https://beatmastering.ir/wp-content/uploads/2024/12/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%A2%D9%87%D9%86%DA%AF-%D9%87%D8%A7%DB%8C-%D8%B9%D8%B1%D9%81%D8%A7%D9%86-%D9%BE%D8%A7%DB%8C%D8%AF%D8%A7%D8%B1.jpg"
+      },
+      {
+        "id": "rap_07",
+        "name": "شایع",
+        "image": "https://beatmastering.ir/wp-content/uploads/2024/09/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%A2%D9%87%D9%86%DA%AF-%D9%87%D8%A7%DB%8C-%D8%B4%D8%A7%DB%8C%D8%B9.jpg"
+      },
+      {
+        "id": "rap_08",
+        "name": "بهرام",
+        "image": "https://beatmastering.ir/wp-content/uploads/2024/11/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%A2%D9%87%D9%86%DA%AF-%D9%87%D8%A7%DB%8C-%D8%A8%D9%87%D8%B1%D8%A7%D9%85-2.jpg"
+      },
+      {
+        "id": "rap_09",
+        "name": "مهراد هیدن",
+        "image": "https://tajmusics.com/wp-content/uploads/2025/07/Mehrad-Hidden-Khodaye-Binahayat.webp"
+      },
+      {
+        "id": "rap_10",
+        "name": "حصین",
+        "image": "https://ghalbmusic.com/wp-content/uploads/2025/08/Dorcci%20&%20Ho3ein%20&%20Mahyar%20&%20Tataloo%20-%20Tehran%2042.jpg"
+      }
+    ]
+  },
+  {
+    "id": "cat_03",
+    "genre": "بهترین های سنتی",
+    "artists": [
+      {
+        "id": "classic_01",
+        "name": "محمدرضا شجریان",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4s4G9RiHy0VmatxuigTJ_UsYgwpP--ZcH5g&s"
+      },
+      {
+        "id": "classic_02",
+        "name": "شهرام ناظری",
+        "image": "https://static2.jamaran.news/servev2/pd4AKnTbPIqf/lLl5vbV5w7c,/%D8%B4%D9%87%D8%B1%D8%A7%D9%85+%D9%86%D8%A7%D8%B8%D8%B1%DB%8C.jpg"
+      },
+      {
+        "id": "classic_03",
+        "name": "همایون شجریان",
+        "image": "https://files.namnak.com/users/en/aup/202310/170_pics/%D9%87%D9%85%D8%A7%DB%8C%D9%88%D9%86-%D8%B4%D8%AC%D8%B1%DB%8C%D8%A7%D9%86.webp"
+      },
+      {
+        "id": "classic_04",
+        "name": "علیرضا قربانی",
+        "image": "https://musicfile.ir/wp-content/uploads/2025/04/Alireza-Ghorbani-Az-Delam-Dor-Shodi.jpg"
+      },
+      {
+        "id": "classic_05",
+        "name": "علیرضا افتخاری",
+        "image": "https://avapedia.com/s3-upload/2022/02/09/new-release/alireza-eftekhari5.jpg"
+      },
+      {
+        "id": "classic_06",
+        "name": "کیهان کلهر",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGOYvwty3aavYTz3pdVgDbaodBZWq63iIKFc7F59MYgYw32273k-Zn7lMS0AYrijpX_Eo&usqp=CAU"
+      },
+      {
+        "id": "classic_07",
+        "name": "حسین علیزاده",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhCA2NoZnGLFA-jtOcd3OkpHdtF_v0y1SCjiz3SYhfaGPfGcJCpeZBnJYiIPvlk7qOwfo&usqp=CAU"
+      },
+      {
+        "id": "classic_08",
+        "name": "مجید درخشانی",
+        "image": "https://persianv.com/biography/wp-content/uploads/sites/27/2021/01/%D8%A8%DB%8C%D9%88%DA%AF%D8%B1%D8%A7%D9%81%DB%8C-%D9%85%D8%AC%DB%8C%D8%AF-%D8%AF%D8%B1%D8%AE%D8%B4%D8%A7%D9%86%DB%8C.jpg"
+      },
+      {
+        "id": "classic_09",
+        "name": "محمدرضا لطفی",
+        "image": "https://i1.sndcdn.com/artworks-ltHBeyuw89gN9cc8-EXGIqA-t500x500.jpg"
+      },
+      {
+        "id": "classic_10",
+        "name": "سالار عقیلی",
+        "image": "https://cdn.mojnews.com/thumbnail/07yF2bSvCdRl/iPnWSbcB1S1-KhUZFvV4AomaL5yZePK-0vt63Glusj1YwtA7oVmQensyZeWmUdx-gWQQstjoySs,/%D8%B3%D8%A7%D9%84%D8%A7%D8%B1+%D8%B9%D9%82%DB%8C%D9%84%DB%8C.jpg"
+      }
+    ]
+  },
+  {
+    "id": "cat_04",
+    "genre": "بهترین های محلی",
+    "artists": [
+      {
+        "id": "local_01",
+        "name": "محسن لرستانی",
+        "image": "https://upmusics.com/wp-content/uploads/2018/12/Capture.jpg"
+      },
+      {
+        "id": "local_02",
+        "name": "حسین علیزاده",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhCA2NoZnGLFA-jtOcd3OkpHdtF_v0y1SCjiz3SYhfaGPfGcJCpeZBnJYiIPvlk7qOwfo&usqp=CAU"
+      },
+      {
+        "id": "local_03",
+        "name": "جمشید عندلیبی",
+        "image": "https://newspaper.hamshahrionline.ir//img/newspaper_pages/1402/12-%20esfand/16/rooyi/07-09.jpg"
+      },
+      {
+        "id": "local_04",
+        "name": "فریدون پوررضا",
+        "image": "https://radionavahi.com/wp-content/uploads/2017/02/Avaz-Heybat-Neylabak-mp3-image-252x300.jpg"
+      },
+      {
+        "id": "local_05",
+        "name": "ناصر وحدتی",
+        "image": "https://www.jenabmusic.com/wp-content/uploads/2023/02/Naser-Vahdati-Musics.jpg"
+      },
+      {
+        "id": "local_06",
+        "name": "امیر قمی",
+        "image": "https://dayan.ir/wp-content/uploads/2021/09/4502-Amir-GhomiGosheyi-Az-Ghalbe-R.jpg"
+      },
+      {
+        "id": "local_07",
+        "name": "مرتضی باب",
+        "image": "https://dayan.ir/wp-content/uploads/2021/09/8875-Morteza-BabBemirom.jpg"
+      },
+      {
+        "id": "local_08",
+        "name": "قربان نجفی",
+        "image": "https://photokade.com/wp-content/uploads/najafi-gorban-photokade-com-2.webp"
+      },
+      {
+        "id": "local_09",
+        "name": "محسن میرزازاده",
+        "image": "https://mix-music.ir/wp-content/uploads/2021/10/Mohsen-Mirzazade-Rojava.jpg"
+      },
+      {
+        "id": "local_10",
+        "name": "رحیم شهریاری",
+        "image": "https://sabalanmusic.com/wp-content/uploads/2023/04/Rahim-Shahryari-Eshghim.jpg"
+      }
+    ]
+  }
+]

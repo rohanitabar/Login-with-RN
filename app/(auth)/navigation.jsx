@@ -1,90 +1,85 @@
 import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
 import Octicons from "@expo/vector-icons/Octicons";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import { useState } from "react";
 
 const Navigation = () => {
   const [active, setActive] = useState("home");
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.backCon}>
-        <View style={styles.back}>
-          {/* Home */}
-          <TouchableOpacity
-            style={styles.navBtn}
-            activeOpacity={0.7}
-            onPress={() => setActive("home")}
-          >
-            <Octicons
-              name="home"
-              size={24}
-              color={active === "home" ? "#0d54ec" : "#555"}
-            />
-            <Text style={[styles.name, active === "home" && styles.activeText]}>
-              خانه
-            </Text>
-          </TouchableOpacity>
+    <View style={styles.container}>
+      <View style={styles.back}>
+        {/* Home */}
+        <TouchableOpacity
+          style={styles.navBtn}
+          activeOpacity={0.7}
+          onPress={() => setActive("home")}
+        >
+          <Octicons
+            name="home"
+            size={24}
+            color={active === "home" ? "#0d54ec" : "#555"}
+          />
+          <Text style={[styles.name, active === "home" && styles.activeText]}>
+            خانه
+          </Text>
+        </TouchableOpacity>
 
-          {/* Music Plus */}
-          <TouchableOpacity
-            style={styles.navBtn}
-            activeOpacity={0.7}
-            onPress={() => setActive("plus")}
+        {/* Favorites */}
+        <TouchableOpacity
+          style={styles.navBtn}
+          activeOpacity={0.7}
+          onPress={() => setActive("favorites")}
+        >
+          <FontAwesome5
+            name="heart"
+            size={24}
+            color={active === "favorites" ? "#0d54ec" : "#555"}
+          />
+          <Text
+            style={[styles.name, active === "favorites" && styles.activeText]}
           >
-            <MaterialCommunityIcons
-              name="star-four-points-outline"
-              size={24}
-              color={active === "plus" ? "#0d54ec" : "#555"}
-            />
-            <Text style={[styles.name, active === "plus" && styles.activeText]}>
-              موزیک پلاس
-            </Text>
-          </TouchableOpacity>
+            مورد پسند
+          </Text>
+        </TouchableOpacity>
 
-          {/* Categories */}
-          <TouchableOpacity
-            style={styles.navBtn}
-            activeOpacity={0.7}
-            onPress={() => setActive("categories")}
+        {/* Categories */}
+        <TouchableOpacity
+          style={styles.navBtn}
+          activeOpacity={0.7}
+          onPress={() => setActive("categories")}
+        >
+          <MaterialCommunityIcons
+            name="folder-music-outline"
+            size={24}
+            color={active === "categories" ? "#0d54ec" : "#555"}
+          />
+          <Text
+            style={[styles.name, active === "categories" && styles.activeText]}
           >
-            <MaterialCommunityIcons
-              name="folder-music-outline"
-              size={24}
-              color={active === "categories" ? "#0d54ec" : "#555"}
-            />
-            <Text
-              style={[
-                styles.name,
-                active === "categories" && styles.activeText,
-              ]}
-            >
-              دسته ها
-            </Text>
-          </TouchableOpacity>
+            دسته‌ها
+          </Text>
+        </TouchableOpacity>
 
-          {/* History */}
-          <TouchableOpacity
-            style={styles.navBtn}
-            activeOpacity={0.7}
-            onPress={() => setActive("history")}
-          >
-            <Ionicons
-              name="musical-notes-outline"
-              size={24}
-              color={active === "history" ? "#0d54ec" : "#555"}
-            />
-            <Text
-              style={[styles.name, active === "history" && styles.activeText]}
-            >
-              شنیده شده
-            </Text>
-          </TouchableOpacity>
-        </View>
+        {/* History */}
+        <TouchableOpacity
+          style={styles.navBtn}
+          activeOpacity={0.7}
+          onPress={() => setActive("history")}
+        >
+          <Ionicons
+            name="musical-notes-outline"
+            size={24}
+            color={active === "history" ? "#0d54ec" : "#555"}
+          />
+          <Text style={[styles.name, active === "history" && styles.activeText]}>
+            شنیده‌شده
+          </Text>
+        </TouchableOpacity>
       </View>
-    </SafeAreaView>
+    </View>
   );
 };
 
@@ -92,13 +87,11 @@ export default Navigation;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    width: "100%",
-    justifyContent: "flex-end",
-  },
-  backCon: {
+    position: "absolute",
+    bottom: 10,
+    left: 0,
+    right: 0,
     alignItems: "center",
-    padding: 10,
   },
   back: {
     flexDirection: "row",
@@ -124,13 +117,12 @@ const styles = StyleSheet.create({
   },
   name: {
     fontFamily: "Yekan",
-    fontSize: 10,
+    fontSize: 11,
     marginTop: 3,
     color: "#555",
   },
   activeText: {
     color: "#0d54ec",
-    fontSize: 14,
-    textTransform:.5
+    fontSize: 15,
   },
 });

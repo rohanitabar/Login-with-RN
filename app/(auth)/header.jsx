@@ -6,7 +6,7 @@ const Header = () => {
   const logo = require("../../assets/Musicfy-logo.png"); // Logo img
 
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <View style={styles.headerCon}>
         <View style={styles.header}>
           {/* Logo + Title */}
@@ -36,17 +36,22 @@ const Header = () => {
           </View>
         </View>
       </View>
-      <View style={styles.searchContainer}>
-        <TextInput
-          style={styles.input}
-          placeholder="جستجو..."
-          placeholderTextColor="#999"
-        />
-        <TouchableOpacity>
-          <Ionicons name="search" size={20} color="#888" style={styles.iconSearch} />
-        </TouchableOpacity>
-      </View>
-    </SafeAreaView>
+        <View style={styles.searchContainer}>
+          <TextInput
+            style={styles.input}
+            placeholder="جستجو..."
+            placeholderTextColor="#999"
+          />
+          <TouchableOpacity>
+            <Ionicons
+              name="search"
+              size={20}
+              color="#888"
+              style={styles.iconSearch}
+            />
+          </TouchableOpacity>
+        </View>
+    </View>
   );
 };
 
@@ -63,8 +68,8 @@ const styles = StyleSheet.create({
   header: {
     backgroundColor: "#0d54ec",
     width: "100%",
-    height: 70,
     borderBottomRightRadius: 30,
+    height: 70,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
@@ -107,9 +112,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#f2f2f2",
     borderRadius: 25,
     paddingHorizontal: 15,
-    marginHorizontal:10,
-    marginTop:10,
+    marginHorizontal: 10,
+    marginTop: 10,
     height: 45,
+    marginBottom: 3,
 
     // shadow iOS
     shadowColor: "#000",

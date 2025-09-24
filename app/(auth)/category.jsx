@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Text,
   View,
@@ -6,7 +7,6 @@ import {
   Image,
   FlatList,
 } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
 
 const categories = [
   { id: "1", title: "سنتی", image: require("../violin.png") },
@@ -19,21 +19,26 @@ const categories = [
 const Category = () => {
   // render each card
   const renderCard = ({ item }) => (
-    <TouchableOpacity style={styles.card}>
-      <Image source={item.image} style={styles.cardImg} resizeMode="contain" />
-      <Text style={styles.cardTitle}>{item.title}</Text>
-    </TouchableOpacity>
+    <View style={styles.shadowWrapper}>
+      <TouchableOpacity style={styles.card}>
+        <Image
+          source={item.image}
+          style={styles.cardImg}
+          resizeMode="contain"
+        />
+        <Text style={styles.cardTitle}>{item.title}</Text>
+      </TouchableOpacity>
+    </View>
   );
 
   return (
     <View style={styles.container}>
-      {/* FlatList in horizontal mode */}
       <FlatList
         data={categories}
         renderItem={renderCard}
         keyExtractor={(item) => item.id}
-        horizontal // make list horizontal
-        showsHorizontalScrollIndicator={false} // hide scroll bar
+        horizontal
+        showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.list}
       />
     </View>
@@ -45,25 +50,31 @@ export default Category;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    justifyContent: "center",
+    marginTop: 5,
+    marginBottom: 20,
   },
   list: {
     paddingHorizontal: 10,
   },
+  shadowWrapper: {
+    // سایه اندروید
+    elevation: 5,
+    // سایه iOS
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 6,
+    borderRadius: 20, // حتما با کارت هماهنگ باشه
+    marginRight: 15,
+    marginBottom: 2,
+  },
   card: {
-    backgroundColor: "#fffdfdff",
+    backgroundColor: "#fff",
     borderRadius: 20,
     width: 120,
     padding: 10,
-    height:150,
+    height: 150,
     alignItems: "center",
-    marginRight: 15, // space between cards
-    elevation: 4, // shadow (Android)
-    shadowColor: "#000", // shadow (iOS)
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 3,
   },
   cardImg: {
     width: 100,
@@ -73,5 +84,6 @@ const styles = StyleSheet.create({
     fontFamily: "Yekan",
     fontSize: 15,
     marginTop: 8,
+    textAlign: "center",
   },
 });
